@@ -73,8 +73,8 @@ fn main() {
 
     if args.len() < 4 {
         eprintln!("Usage:
-  cryptify encrypt <file> <password>
-  cryptify decrypt <file.enc> <password>");
+  ./masquerade encrypt <file> <password>
+  ./masquerade decrypt <file.enc> <password>");
         return;
     }
 
